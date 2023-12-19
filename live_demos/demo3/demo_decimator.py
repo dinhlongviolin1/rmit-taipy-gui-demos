@@ -11,7 +11,6 @@ df["index1"] = df.index
 # Based on epsilon
 # decimator_instance = RDP(epsilon=100)
 
-
 # Based on desired number of points
 # decimator_instance = RDP(n_out=1000)
 

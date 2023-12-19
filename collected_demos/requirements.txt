@@ -6,3 +6,4 @@ torchvision
 plotly
 matplotlib
 scikit-learn
+yfinance
