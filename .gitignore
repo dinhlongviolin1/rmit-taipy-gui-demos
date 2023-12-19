@@ -137,3 +137,5 @@ cython_debug/
 .DS_Store
 
 Pipfile.lock
+
+.vscode

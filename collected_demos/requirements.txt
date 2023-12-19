@@ -1,0 +1,8 @@
+gradio
+transformers
+torch
+nltk
+torchvision
+plotly
+matplotlib
+scikit-learn
