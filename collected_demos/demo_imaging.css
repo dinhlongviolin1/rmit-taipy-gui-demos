@@ -1,0 +1,23 @@
+div#root {
+    margin: 20px;
+}
+.taipy-slider {
+    color: green;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.taipy-slider > div {
+    display: flex;
+    align-items: center;
+    /*vertical-align:middle;*/
+}
+.taipy-slider > div > div {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.taipy-layout#image-part {
+    margin-top: 20px;
+}
+.taipy-layout#rgb-columns {
+    justify-items: center;
+}
