@@ -14,13 +14,13 @@ df["index1"] = df.index
 # Based on desired number of points
 # decimator_instance = RDP(n_out=1000)
 
-# decimator_instance = LTTB(n_out=300)
+decimator_instance = LTTB(n_out=300)
 
 # decimator_instance = MinMaxDecimator(n_out=500)
 
-gui = Gui(
-    page=""" 
+md = """
 <|{df}|chart|x=index1|y=A|decimator=decimator_instance|>
 """
-)
+
+gui = Gui(page=md)
 gui.run(run_browser=False)
