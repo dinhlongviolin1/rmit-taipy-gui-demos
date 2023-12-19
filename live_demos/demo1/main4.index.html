@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>This is a demo of Taipy GUI.</p>
+    <h2>Variables</h2>
+    <p>x = <taipy:text value="{x}" /></p>
+    <p>Slider for x (0 - 100): <taipy:slider value="{x}" /></p>
+    <p>y = <taipy:text value="{y}" /></p>
+    <p>Input for y: <taipy:number value="{x}" /></p>
+    <p>x + y = <taipy:text value="{x + y}" /></p>
+    <p><taipy:text value="x - y = {x - y}" /></p>
+    <h2>Buttons</h2>
+    <p>s = <taipy:text value="{s}" /></p>
+    <p><taipy:button label="Update text for s" on_action="on_click" /></p>
+  </body>
+</html>
